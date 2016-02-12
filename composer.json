@@ -1,0 +1,22 @@
+{
+    "name": "signpostmarv/php-traceverbal-expressions",
+    "description": "Traceable Verbal Expressions",
+    "license": "MIT",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "verbalexpressions/php-verbal-expressions": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TraceverbalExpressions\\PHPTraceverbalExpressions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SignpostMarv",
+            "email": "me@signpostmarv.name"
+        }
+    ]
+}
